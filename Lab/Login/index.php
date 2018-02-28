@@ -11,6 +11,6 @@
 <?php  require 'header/header.php' ?>
 
 
-<?php include '../Page/dos.php' ?>
+<?php include '../Page/uno.php' ?>
   </body>
   </html>

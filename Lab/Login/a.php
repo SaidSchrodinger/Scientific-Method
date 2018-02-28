@@ -36,15 +36,10 @@ $user = null;
 <?php if (!empty($user)): ?>
   <br>Bienvenido <?= $user['email'] ?>
   <br>Has ingresado a Scientific Method
-  
+
+  <?php include '../Page/dos.php' ?>
+
 <?php else: ?>
-
-
-
-<br><br><br><br><br><br>
-    <h1 titulo> Bienvenido a Scientific Method </h1>
-
-
 
 
 <?php endif; ?>

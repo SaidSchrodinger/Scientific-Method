@@ -49,7 +49,7 @@ if (isset($_SESSION['user_id'])) {
   <?php endif; ?>
 
     <form action="login.php" method="post">
-      <input type="text" required name="email" placeholder="Ingrese su email">
+      <input type="text" required name="email" placeholder="Ingrese un usuario">
       <input type="password" required name="password" placeholder="Ingrese su contraseña">
       <input type="submit" value="Iniciar Sesión">
     </form>

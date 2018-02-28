@@ -1,7 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -40,6 +41,7 @@ input[type="submit"]:hover {
 	background: #2c1343;
 	color: white;
 	height: 20px;
+
 }
 #main-header a {
   text-decoration: none;
@@ -110,9 +112,10 @@ nav {
     font-size: 17px;
     font-family: Roboto;
     text-decoration: none;
+
+
+
 }
-
-
 
 
 .nav_bar_button:hover{
@@ -121,3 +124,82 @@ border:1px solid #999;
 color: white;
 font-size: 17px;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .Title{
+   color: white;
+   font-size: 40px;
+   text-align: center;
+ }
+
+ .Tit{
+   color: black;
+   font-size: 40px;
+   text-align: left;
+ }
+
+ .Content{
+   color: white;
+   font-size: 20px;
+   text-align: justify;
+ }
+
+ .Cont{
+   color: black;
+   font-size: 20px;
+   text-align: justify;
+ }
+
+
+
+
+
+ .Main_container{
+  background-color: #552583;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-family: Roboto;
+  border-radius: 10px;
+}
+
+
+.Maic{
+ background-color: transparent;
+ margin-left: 30px;
+ margin-right: 30px;
+ margin-top: 1px;
+ margin-bottom: 30px;
+ padding: 20px;
+ font-family: Roboto;
+ border-radius: 10px;
+}
+
+
+
+table{
+  border: 3px solid #999;
+  background: #eee;
+}
+td{
+  border: 1px solid #999;
+}
+td:hover{
+  background-color: #123ee4;
+}
